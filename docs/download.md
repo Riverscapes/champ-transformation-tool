@@ -11,9 +11,9 @@ See the[ ReadMe page](http://ctt.joewheaton.org/read-me) for installation instru
 
 ## Issue tracker
 
-There is a bug tracker available [here](https://bitbucket.org/cgarrard/champ/issues). 
+There is a bug tracker available [here](https://github.com/Riverscapes/champ-transformation-tool/issues). 
 
 ## Source Code (NOT NECESSARY TO RUN TOOL)
 
-The source code is licensed under a [GNU Public License](https://github.com/Riverscapes/champ-transformation-tool/blob/master/LICENSE) as open source and can be downloaded by developers wishing to extend the tool [here](https://github.com/Riverscapes/champ-transformation-tool)(requires Visual Studio, C#).
+The source code is licensed under a [GNU Public License](https://github.com/Riverscapes/champ-transformation-tool/blob/master/LICENSE) as open source and can be downloaded by developers wishing to extend the tool [here](https://github.com/Riverscapes/champ-transformation-tool) (requires Visual Studio, C#).
 

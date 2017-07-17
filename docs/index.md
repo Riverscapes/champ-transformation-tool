@@ -5,6 +5,7 @@ The CTT was developed to support the post-processing workflow for topographic an
 ![toolbar]({{site.baseurl}}/assets/images/CTT_Toolbar.png)
 
 * [Download Instructions]({{site/baseurl}}/download.html)
+* [How to use CTT]({{site.baseurl}}/how-to-use-ctt.html)
 * [Disclaimer & Copyright]({{site.baseurl}}/disclaimer.html)
 
 ### What does it do?
