@@ -7,7 +7,7 @@ We have versions of the CTT AddIn that will work for ArcGIS 10.0 and 10.1 (no 9.
 
 See the[ ReadMe page](http://ctt.joewheaton.org/read-me) for installation instructions. 
 
-![addin]({{site.baseurl}}/CTT_AddIn_Manager.png)
+![addin]({{site.baseurl}}/assets/images/CTT_AddIn_Manager.png)
 
 ## Issue tracker
 
