@@ -1,0 +1,51 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>CHaMP Transformation Tool</Name>
+  <AddInID>{39da1482-4bbf-4421-bdc8-33b394618abc}</AddInID>
+  <Description>Transforms and projects CHaMP field survey data into a UTM coordinate system given GPS coordinates from three benchmarks.</Description>
+  <Version>1.1</Version>
+  <Image>Images\Champ.png</Image>
+  <Author>Chris Garrard</Author>
+  <Company>USU ET-AL and RS/GIS Lab</Company>
+  <Date>7/6/2012</Date>
+  <Targets>
+    <Target name="Desktop" version="10.0" />
+  </Targets>
+  <AddIn language="CLR" library="CHAMP.dll" namespace="CHAMP">
+    <ArcMap>
+      <Commands>
+        <Button id="USU_ET-AL_and_CHAMP_ChampButton" class="ChampButton" message="Open the CHaMP window." caption="CHaMP Window" tip="Open the CHaMP window" category="Add-In Controls" image="Images\Champ.png">
+          <Help heading="CHAMP">This tool transforms and projects CHAMP field survey data into a UTM coordinate system given GPS coordinates from three benchmarks.</Help>
+        </Button>
+        <Button id="USU_ET-AL_and_CHAMP_ChampInfoButton" class="ChampInfoButton" message="About the CHaMP Transformation Tool." caption="About CHaMP" tip="About the CHaMP Transformation Tool" category="Add-In Controls" image="Images\ChampInfoButton.png">
+          <Help heading="About the CHaMP Transformation Tool" />
+        </Button>
+        <Button id="USU_ET-AL_and_CHAMP_ChampApplyButton" class="ChampApplyButton" message="Apply a previous transformation to current data." caption="Apply existing transformation" tip="Apply a previous transformation to current data" category="Add-In Controls" image="Images\ChampApplyButton.png">
+          <Help heading="Apply Previous CHAMP Transformation">This tool transforms and projects CHAMP field survey data based on a previous CHAMP transformation.</Help>
+        </Button>
+      </Commands>
+      <Extensions>
+        <Extension id="USU_ET-AL_and_CHAMP_ChampExtension" class="ChampExtension" />
+      </Extensions>
+      <DockableWindows>
+        <DockableWindow id="USU_ET-AL_and_CHAMP_ChampDockableWindow" class="ChampDockableWindow+AddinImpl" caption="CHaMP Transformation Tool" image="Images\Champ.png">
+          <InitialPlacement height="556" width="357" state="pinned" position="left" />
+        </DockableWindow>
+        <DockableWindow id="USU_ET-AL_and_CHAMP_ChampInfoDockableWindow" class="ChampInfoDockableWindow+AddinImpl" caption="About the CHaMP Transformation Tool" image="Images\Champ.png">
+          <InitialPlacement height="458" width="477" state="unpinned" position="float" />
+        </DockableWindow>
+        <DockableWindow id="USU_ET-AL_and_CHAMP_ChampApplyDockableWindow" class="ChampApplyDockableWindow+AddinImpl" caption="Apply Transformation" image="Images\Champ.png">
+          <InitialPlacement height="300" width="300" state="pinned" position="left" />
+        </DockableWindow>
+      </DockableWindows>
+      <Toolbars>
+        <Toolbar id="USU_ET-AL_and_CHAMP_CHAMP" caption="CHaMP" showInitially="true">
+          <Items>
+            <Button refID="USU_ET-AL_and_CHAMP_ChampButton" />
+            <Button refID="USU_ET-AL_and_CHAMP_ChampApplyButton" />
+            <Button refID="USU_ET-AL_and_CHAMP_ChampInfoButton" />
+          </Items>
+        </Toolbar>
+      </Toolbars>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>
