@@ -7,6 +7,8 @@ The CTT was developed to support the post-processing workflow for topographic an
 * [Download Instructions]({{site/baseurl}}/download.html)
 * [How to use CTT]({{site.baseurl}}/how-to-use-ctt.html)
 * [Disclaimer & Copyright]({{site.baseurl}}/disclaimer.html)
+* [Source Code](https://github.com/Riverscapes/champ-transformation-tool)
+* [License](https://github.com/Riverscapes/champ-transformation-tool/blob/master/LICENSE)
 
 ### What does it do?
 
