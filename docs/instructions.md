@@ -19,9 +19,9 @@ Updated:  May, 2011
 
 ## GNU Licnese
 
-Developer can be contacted at [Joe.Wheaton@usu.edu](mailto:Joe.Wheaton@usu.edu) or Joe Wheaton, Department of Watershed Sciences, Utah State University, 5210 Old Main Hill, Logan, UT 84322-5210, USA. Source code can be acquired from developer by request.
+Developer can be contacted at [Joe.Wheaton@usu.edu](mailto:Joe.Wheaton@usu.edu) or Joe Wheaton, Department of Watershed Sciences, Utah State University, 5210 Old Main Hill, Logan, UT 84322-5210, USA. The source code is licensed under a [GNU Public License](https://github.com/Riverscapes/champ-transformation-tool/blob/master/LICENSE) as open source and can be downloaded by developers wishing to extend the tool [here](https://github.com/Riverscapes/champ-transformation-tool ) (requires Visual Studio, C#).
 
-This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.  
+This [program]({{site.baseurl}}/download) is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.  
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
@@ -69,11 +69,15 @@ You need unprojected survey data, which was surveyed in an assumed Cartesian coo
 
 ### Installing
 
-To install, make sure that ArcGIS  is not running and any previous versions of the Add-In are removed. Simply double click on the [`CHAMP.esriAddIn`](http://www.gis.usu.edu/~jwheaton/et_al/CHAMP_TransformationTool/CHAMP.esriAddIn) after you download [it](http://www.gis.usu.edu/~jwheaton/et_al/CHAMP_TransformationTool/CHAMP.esriAddIn). See this video for step-by-step instructions:
+To install, make sure that ArcGIS  is not running and any previous versions of the Add-In are removed. Simply double click on the `[`CHAMP.esriAddIn`](http://etalweb.joewheaton.org/CHAMP_TransformationTool/10_1/CHAMP.esriAddIn)` after you download [it](http://etalweb.joewheaton.org/CHAMP_TransformationTool/10_1/CHAMP.esriAddIn). See this video for step-by-step instructions:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gz3jtxLN474" frameborder="0" allowfullscreen></iframe>
 
 ### Uninstalling
 
 If you ever need to uninstall the add-in, simply navigate to Customize -> Add-Ins, and remove it. See also:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_WtbJKicI8I" frameborder="0" allowfullscreen></iframe>
 
 ### 
 
