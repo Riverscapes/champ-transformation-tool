@@ -1,5 +1,7 @@
 # Download Tool
 
+[![toolbar]({{site.baseurl}}/assets/images/CTT_Toolbar.png)]({{site.baseurl}}/index.html)
+
 We have versions of the CTT AddIn that will work for ArcGIS 10.0 and 10.1 (no 9.X versions are planned):
 
 - For ArcGIS 10.0: [`CHAMP.esriAddIn`](http://etalweb.joewheaton.org/CHAMP_TransformationTool/10_0/CHAMP.esriAddIn) 

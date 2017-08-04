@@ -2,7 +2,7 @@
 
 The CTT was developed to support the post-processing workflow for topographic and habitat surveys in the **C**olumbia **Ha**biat **M**onitoring **P**rogram ([CHaMP](http://www.champmonitoring.org/)). The tool is an ArcGIS Add-In and when added shows up as a toolbar:
 
-![toolbar]({{site.baseurl}}/assets/images/CTT_Toolbar.png)
+[![toolbar]({{site.baseurl}}/assets/images/CTT_Toolbar.png)]({{site.baseurl}}/index.html)
 
 * [Download Instructions]({{site/baseurl}}/download.html)
 * [How to use CTT]({{site.baseurl}}/how-to-use-ctt.html)

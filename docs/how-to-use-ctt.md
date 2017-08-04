@@ -1,5 +1,7 @@
 # How to use the CTT
 
+[![toolbar]({{site.baseurl}}/assets/images/CTT_Toolbar.png)]({{site.baseurl}}/index.html)
+
 The use of the tool is described in Wheaton et al. (In Review), and reviewed here briefly. The video tutorials below go through all the steps in using the tool. There are over 250 different sample datasets (as of Fall 2011) you can try the tool out on available at http://champmonitoring.org.
 
 If you have unprojected survey data, that includes coordinates for three benchmarks for which you also have projected or geographic coordinates for, you can use this tool (i.e. any initial CHaMP survey). It helps if you have some context projected imagery or basemap layers for your study area. This video covers how you load such imagery to prepare to use the tool: 
