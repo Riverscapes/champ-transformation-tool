@@ -111,6 +111,6 @@ Added the following features:
 
 ## Acknowledgements
 
-The CHaMP Transformation Tool was developed by [Joe Wheaton] (http://www.joewheaton.org/lab) and [Chris Garrard] (http://www.gis.usu.edu/~chrisg) at [Utah State University ](http://cnr.usu.edu/wats), with design input from Carol Volk and Kelly Whitehead ([South Fork Research, Inc.](http://southforkresearch.org/)). Funding for this tool was provided by the Bonneville Power Administration (BPA Proposal # 2011-006-00) and NOAA as part of the CHaMP ([Columbia Habitat Monitoring Protocol](http://www.champmonitoring.org)). 
+The CHaMP Transformation Tool was developed by [Joe Wheaton](http://www.joewheaton.org/lab) and [Chris Garrard](http://www.gis.usu.edu/~chrisg) at [Utah State University ](http://cnr.usu.edu/wats), with design input from Carol Volk and Kelly Whitehead ([South Fork Research, Inc.](http://southforkresearch.org/)). Funding for this tool was provided by the Bonneville Power Administration (BPA Proposal # 2011-006-00) and NOAA as part of the CHaMP ([Columbia Habitat Monitoring Protocol](http://www.champmonitoring.org)). 
 
 .
