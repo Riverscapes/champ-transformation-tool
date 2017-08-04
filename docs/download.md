@@ -15,5 +15,7 @@ There is a bug tracker available [here](https://github.com/Riverscapes/champ-tra
 
 ## Source Code (NOT NECESSARY TO RUN TOOL)
 
-The source code is licensed under a [GNU Public License](https://github.com/Riverscapes/champ-transformation-tool/blob/master/LICENSE) as open source and can be downloaded by developers wishing to extend the tool [here](https://github.com/Riverscapes/champ-transformation-tool) (requires Visual Studio, C#).
+![github-icon]({{site.baseurl}}/assets/images\github-icon.png)
+
+The source code is licensed under a [GNU Public License](https://github.com/Riverscapes/champ-transformation-tool/blob/master/LICENSE) as open source and can be downloaded by developers wishing to extend the tool [here](https://github.com/Riverscapes/champ-transformation-tool (requires Visual Studio, C#).
 
