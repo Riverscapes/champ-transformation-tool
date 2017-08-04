@@ -79,19 +79,19 @@ If you ever need to uninstall the add-in, simply navigate to Customize -> Add-In
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_WtbJKicI8I" frameborder="0" allowfullscreen></iframe>
 
-### 
+------
 
-### 
+
 
 ## Support
 
 No formal support is available with this free software. However, do feel free to contact us if you find bugs or have questions. CHaMP crews should use the [CHaMP help forum](http://forum.bluezone.usu.edu/champ/viewforum.php?f=5).
 
-## 
+------
 
 ## Revision History
 
-The CTT 1.0.0 was modified on 3/4/2012 to address the following (see Bitbucket repo for original revision history and new GitHub repo for current changes):
+The CTT 1.0.0 was modified on 3/4/2012 to address the following (see  [GitHub repo](https://github.com/Riverscapes/champ-transformation-tool ) for current changes):
 
 Minor Bugs:
 
