@@ -2,10 +2,10 @@
 
 We have versions of the CTT AddIn that will work for ArcGIS 10.0 and 10.1 (no 9.X versions are planned):
 
-- For ArcGIS 10.0: [`CHAMP.esriAddIn`](http://etal.usu.edu/CHAMP_TransformationTool/10_0/CHAMP.esriAddIn) 
-- For ArcGIS 10.1: [`CHAMP.esriAddIn`](http://etal.usu.edu/CHAMP_TransformationTool/10_1/CHAMP.esriAddIn) (BETA)
+- For ArcGIS 10.0: [`CHAMP.esriAddIn`](http://etalweb.joewheaton.org/CHAMP_TransformationTool/10_0/CHAMP.esriAddIn) 
+- For ArcGIS 10.1: [`CHAMP.esriAddIn`](http://etalweb.joewheaton.org/CHAMP_TransformationTool/10_1/CHAMP.esriAddIn) (BETA)
 
-See the[ ReadMe page](http://ctt.joewheaton.org/read-me) for installation instructions. 
+See the[ ReadMe page]({{site.baseurl}}/read-me) for installation instructions. 
 
 ![addin]({{site.baseurl}}/assets/images/CTT_AddIn_Manager.png)
 
