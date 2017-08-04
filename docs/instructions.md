@@ -19,7 +19,7 @@ Updated:  May, 2011
 
 ## GNU Licnese
 
-Developer can be contacted at [Joe.Wheaton@usu.edu](mailto:Joe.Wheaton@usu.edu) or Joe Wheaton, Department of Watershed Sciences, Utah State University, 5210 Old Main Hill, Logan, UT 84322-5210, USA. The source code is licensed under a [GNU Public License](https://github.com/Riverscapes/champ-transformation-tool/blob/master/LICENSE) as open source and can be downloaded by developers wishing to extend the tool [here](https://github.com/Riverscapes/champ-transformation-tool ) (requires Visual Studio, C#).
+Developer can be contacted through the [GitHub repo](https://github.com/Riverscapes/champ-transformation-tool ). The source code is licensed under a [GNU Public License](https://github.com/Riverscapes/champ-transformation-tool/blob/master/LICENSE) as open source and can be downloaded by developers wishing to extend the tool [here](https://github.com/Riverscapes/champ-transformation-tool ) (requires Visual Studio, C#).
 
 This [program]({{site.baseurl}}/download) is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.  
 
