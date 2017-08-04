@@ -5,7 +5,7 @@ We have versions of the CTT AddIn that will work for ArcGIS 10.0 and 10.1 (no 9.
 - For ArcGIS 10.0: [`CHAMP.esriAddIn`](http://etalweb.joewheaton.org/CHAMP_TransformationTool/10_0/CHAMP.esriAddIn) 
 - For ArcGIS 10.1: [`CHAMP.esriAddIn`](http://etalweb.joewheaton.org/CHAMP_TransformationTool/10_1/CHAMP.esriAddIn) (BETA)
 
-See the[ ReadMe page]({{site.baseurl}}/read-me) for installation instructions. 
+See the[ ReadMe page]({{site.baseurl}}/read-me) for installation instructions.  Note that while the 10.1 version has not been tested in 10.2, 10.3, 10.4 or 10.5, but users report it working. Also, CTT is now incorporated into the [CHaMP Topo Processing Tools](http://champtools.northarrowresearch.com/).
 
 ![addin]({{site.baseurl}}/assets/images/CTT_AddIn_Manager.png)
 
