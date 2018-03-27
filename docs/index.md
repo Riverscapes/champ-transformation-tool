@@ -6,20 +6,6 @@ The CTT was developed to support the post-processing workflow for topographic an
 
 [![toolbar]({{site.baseurl}}/assets/images/CTT_Toolbar.png)]({{site.baseurl}}/index.html)
 
-* [Download Instructions]({{site/baseurl}}/download.html)
-* [How to use CTT]({{site.baseurl}}/how-to-use-ctt.html)
-* [Disclaimer & Copyright]({{site.baseurl}}/disclaimer.html)
-* [Source Code](https://github.com/Riverscapes/champ-transformation-tool)
-* [License](https://github.com/Riverscapes/champ-transformation-tool/blob/master/LICENSE)
-
-
-
-***
-
-[TOC]
-
-***
-
 ## What does it do?
 
 The  [Ecogemorphology & Topographic Analysis Lab](http://etal.joewheaton.org) (ET-AL) and the [RSGIS Laboratory](http://www.gis.usu.edu/) developed this ArcGIS Add-in for the transformation and projection of [CHaMP](http://www.champmonitoring.org/) field survey data (Bouwes et al. 2011) into real world coordinates given hand-held GPS coordinates from just three benchmarks. The CTT will work with any unprojected data in a file geodatabase, and gives you multiple ways to do an afine transformation based on a simple shift and rotation. Although other transformation tools exist in ArcGIS, there is not a simple sequence of geoprocessing tools, which allow you to transform vector data in a manner that preserves the high relative accuracy of a total station survey. See Wheaton et al. (2012) and the [ReadMe]({{site.baseurl}}/read-me) page for more background.

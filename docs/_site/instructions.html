@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CHaMP Transformation Tool</title>
+
+      <meta name="viewport" content="width=device-width">
+      <link rel="stylesheet" href="/assets/css/app.css">
+      <link rel="stylesheet" href="/assets/css/custom.css">
+      <script src="https://use.fontawesome.com/586b1e1322.js"></script>
+
+      <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicons/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicons/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicons/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicons/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicons/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicons/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicons/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicons/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="/assets/images/favicons/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicons/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
+      <link rel="manifest" href="/assets/images/favicons/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="/assets/images/favicons/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+
+      <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+  </head>
+
+  <body>
+
+  <header>
+    <div id="topbarnav"></div>
+    <div id="headcallout" class="text-center callout large">
+      
+
+      
+      <h4 class="subheader show-for-medium"><a href="/">CHaMP Transformation Tool</a></h4>   
+      <h1>Read Me</h1>
+            
+      
+    </div>
+  </header>
+
+  <div id="inner-wrapper">
+    <div id="inner" class="row">
+      <div id="main" class="large-8 columns large-push-4">
+        <section><p>Produced by Chris Garrard &amp; Joe Wheaton</p>
+
+<p>Copyright © 2011 Wheaton</p>
+
+<p>Updated:  May, 2011</p>
+
+<h2 id="gnu-licnese">GNU Licnese</h2>
+
+<p>Developer can be contacted through the <a href="https://github.com/Riverscapes/champ-transformation-tool">GitHub repo</a>. The source code is licensed under a <a href="https://github.com/Riverscapes/champ-transformation-tool/blob/master/LICENSE">GNU Public License</a> as open source and can be downloaded by developers wishing to extend the tool <a href="https://github.com/Riverscapes/champ-transformation-tool">here</a> (requires Visual Studio, C#).</p>
+
+<p>This <a href="/download">program</a> is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</p>
+
+<p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
+
+<p>You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA or see <a href="http://www.gnu.org/licenses/gpl-2.0.txt">http://www.gnu.org/licenses/gpl-2.0.txt</a> (GLP v2 license).</p>
+
+<h2 id="what-does-it-do">What does it do?</h2>
+
+<p>The <a href="https://sites.google.com/a/joewheaton.org/www/lab">Ecogemorphology &amp; Topographic Analysis Lab</a> (ET-AL) and the RSGIS Center developed this ArcGIS Add-in for the transformation and projection of CHAMP field survey data into UTM coordinate system given GPS coordinates from three benchmarks.  The tool will work with any unprojected data in a file geodatabase, and gives you multiple ways to do a simple transformation based on a shift and rotate. Although other transformation tools exist in ArcGIS, there is not a simple sequence of geoprocessing tools, which allow you to transform vector data in a manner that preserves the high relative accuracy of a total station survey.</p>
+
+<h2 id="background">Background</h2>
+
+<p>The CHaMP Transformation Tool is designed to work very efficiently with data collected in accordance with the<a href="http://www.champmonitoring.org/">CHaMP survey protocol</a>, but will also work for other assumed surveys. This tool is used by field crews in post-processing their topographic and habitat survey data to give them a rough projected coordinate system for their data. This tool would only be used on the first visit to the site. The tool’s primary functions are to<strong>:</strong></p>
+
+<p>●     Establish a Quasi-UTM coordinate system transformation from the original assumed total station Cartesian coordinate survey into a UTM projection that is rough, but good enough to support rough overlay with other GIS layers (e.g.  contextual aerial imagery and 10 m USGS DEMs)</p>
+
+<p>●     Import raw survey data from total station (points, polyline and polygon files) and transform data into this new Quasi-UTM coordinate system and save outputs in file geodatabase</p>
+
+<p>●     Assist the user in choosing the ‘best’ transformation input parameters (via a shift, rotate and scale transformation; i.e. an affine transformation) based on all possible combinations of survey benchmarks/bearings, through allowing user to review and choose the best fit out of 9 possible transformations by showing table of residual errors (based on using third unused benchmark as a check) &amp; showing a preview of the overlay in the map data display of ArcGIS.</p>
+
+<p>●     Record Transformation Model, and updated Control Points for site reoccupation. Write a summary table report.</p>
+
+<hr />
+
+<h2 id="requisites">Requisites</h2>
+
+<h3 id="user-requirements">User Requirements:</h3>
+
+<ul>
+  <li>Some understanding of GIS, and the difference between unprojected data (i.e. an assumed cartesian coordinate system) and projected coordinate systems (e.g. UTM)</li>
+  <li>Familiarity with ArcGIS</li>
+</ul>
+
+<h3 id="system-requirements">System Requirements:</h3>
+
+<ul>
+  <li>ArcGIS 10.X</li>
+</ul>
+
+<h3 id="input-data-requirements">Input Data Requirements:</h3>
+
+<p>You need unprojected survey data, which was surveyed in an assumed Cartesian coordinate system, and three benchmarks spread out over the area of interest. The basic requirements are:</p>
+
+<ul>
+  <li>The input unprojected survey data are feature classes in a file geodatabase (point, polyline and polygon) will work</li>
+  <li>The three benchmarks you surveyed were surveyed both in the unprojected coordinate system (i.e. with a total station) and were located in real geographic space (e.g. with a hand-held GPS or even crudely identified on a projected aerial photograph)</li>
+</ul>
+
+<hr />
+
+<h2 id="installation-procedure">Installation Procedure</h2>
+
+<h3 id="installing">Installing</h3>
+
+<p>To install, make sure that ArcGIS  is not running and any previous versions of the Add-In are removed. Simply double click on the <code class="highlighter-rouge">[</code>CHAMP.esriAddIn<code class="highlighter-rouge">](http://etalweb.joewheaton.org/CHAMP_TransformationTool/10_1/CHAMP.esriAddIn)</code> after you download <a href="http://etalweb.joewheaton.org/CHAMP_TransformationTool/10_1/CHAMP.esriAddIn">it</a>. See this video for step-by-step instructions:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gz3jtxLN474" frameborder="0" allowfullscreen=""></iframe>
+
+<h3 id="uninstalling">Uninstalling</h3>
+
+<p>If you ever need to uninstall the add-in, simply navigate to Customize -&gt; Add-Ins, and remove it. See also:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_WtbJKicI8I" frameborder="0" allowfullscreen=""></iframe>
+
+<hr />
+
+<h2 id="support">Support</h2>
+
+<p>No formal support is available with this free software. However, do feel free to contact us if you find bugs or have questions. CHaMP crews should use the <a href="http://forum.bluezone.usu.edu/champ/viewforum.php?f=5">CHaMP help forum</a>.</p>
+
+<hr />
+
+<h2 id="revision-history">Revision History</h2>
+
+<p>The CTT 1.0.0 was modified on 3/4/2012 to address the following (see  <a href="https://github.com/Riverscapes/champ-transformation-tool">GitHub repo</a> for current changes):</p>
+
+<p>Minor Bugs:</p>
+
+<ul>
+  <li>Saving Layers wrong</li>
+  <li>Transformation Preview</li>
+  <li>An occasional error/warning message</li>
+  <li>Tab order</li>
+  <li>Sometimes coordinate system combobox was not filled</li>
+  <li>Made the about dialog a little bigger</li>
+</ul>
+
+<p>Added the following features:</p>
+
+<ul>
+  <li>Shapefile support (previously only worked with file geodatabases)</li>
+  <li>Projection Support (now works for any user specified projection)</li>
+  <li>Benchmark bearings can now be added fro a file</li>
+  <li>She also added the GNU open source license to the code</li>
+</ul>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>The CHaMP Transformation Tool was developed by <a href="http://www.joewheaton.org/lab">Joe Wheaton</a> and <a href="http://www.gis.usu.edu/~chrisg">Chris Garrard</a> at <a href="http://cnr.usu.edu/wats">Utah State University </a>, with design input from Carol Volk and Kelly Whitehead (<a href="http://southforkresearch.org/">South Fork Research, Inc.</a>). Funding for this tool was provided by the Bonneville Power Administration (BPA Proposal # 2011-006-00) and NOAA as part of the CHaMP (<a href="http://www.champmonitoring.org">Columbia Habitat Monitoring Protocol</a>).</p>
+
+<p>.</p>
+</section>
+      </div>
+      <div id="sidebar" class="large-4 columns large-pull-8">
+          
+	
+	<div class="title-bar">
+		<div class="title-bar-title"><i class="fa fa-file-text"></i> Page Contents</div>		
+	</div>
+	<div id="toc"></div>
+	
+
+
+<div class="title-bar">
+	<div class="title-bar-title"><i class="fa fa-sitemap"></i> Site Contents
+		<div id="menuCtls" class="button-group tiny show-for-medium">
+				<span id="expand" class="button primary fa fa-plus has-tip top" data-tooltip title="Expand all items" aria-haspopup="true" data-disable-hover="false" ></span>
+				<span id="contract" class="button primary fa fa-minus has-tip top" data-tooltip title="Contract all items" aria-haspopup="true" data-disable-hover="false" ></span>
+			</div>	
+	</div>
+</div>
+<div id="sidenav">
+			<ul id='HTMLOnlyNav'>							<li><a href='/disclaimer.html'>Disclaimer & Copyright</a></li>							<li><a href='/download.html'>Download Instructions</a></li>							<li><a href='/how-to-use-ctt.html'>How to use the CTT</a></li>							<li><a href='/'>CHaMP Transformation Tool</a></li>							<li><a href='/instructions.html'>Read Me</a></li>		</ul>	
+</div>
+
+        </div>
+    </div>
+  </div>
+
+
+    <footer id="footer" class="row">
+<div id="rightslogo">
+    <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
+        <img src="/assets/images/cc-watermarks-riverscapes_orig.png" alt="Picture">
+    </a>
+</div>
+</footer>
+    <script type="text/javascript">var NAVTitle = "CHaMP Transformation Tool";var NAVHome = "";var NAVPages = [{url: "/disclaimer.html",absurl: "/disclaimer.html",slug: "disclaimer.html",title: "Disclaimer & Copyright",weight: ""},{url: "/download.html",absurl: "/download.html",slug: "download.html",title: "Download Instructions",weight: ""},{url: "/how-to-use-ctt.html",absurl: "/how-to-use-ctt.html",slug: "how-to-use-ctt.html",title: "How to use the CTT",weight: ""},{url: "/",absurl: "/",slug: "",title: "CHaMP Transformation Tool",weight: ""},{url: "/instructions.html",absurl: "/instructions.html",slug: "instructions.html",title: "Read Me",weight: ""},];var SiteSettings = {"autoPageContents":{"active":true,"onHome":false},"sideMenu":{"homeItem":true,"startExpanded":false},"topmenu":[{"title":"Riverscapes","childern":[{"title":"Model Home","url":"index"},{"title":"Riverscapes Home","url":"http://riverscapes.xyz"},{"title":"About Riverscapes","url":"http://riverscapes.xyz/about.html"},{"title":"Who We Are","url":"http://riverscapes.xyz/who-we-are.html"},{"title":"News","url":"http://riverscapes.xyz/news.html"}]},{"title":"RC Tools","url":"http://riverscapes.xyz/rc-tools.html"},{"title":"RC Science","url":"http://riverscapes.xyz/rc-science.html"},{"title":"RC Data","url":"http://riverscapes.xyz/rc-data.html"},{"title":"RC Help","url":"http://riverscapes.xyz/rc-help.html"}]};</script>
+
+    <script src="/assets/js/dist.js"></script>
+
+  </body>
+
+</html>

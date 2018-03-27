@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CHaMP Transformation Tool</title>
+
+      <meta name="viewport" content="width=device-width">
+      <link rel="stylesheet" href="/assets/css/app.css">
+      <link rel="stylesheet" href="/assets/css/custom.css">
+      <script src="https://use.fontawesome.com/586b1e1322.js"></script>
+
+      <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicons/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicons/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicons/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicons/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicons/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicons/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicons/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicons/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="/assets/images/favicons/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicons/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
+      <link rel="manifest" href="/assets/images/favicons/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="/assets/images/favicons/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+
+      <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+  </head>
+
+  <body>
+
+  <header>
+    <div id="topbarnav"></div>
+    <div id="headcallout" class="text-center callout large">
+      
+
+      
+      <h4 class="subheader show-for-medium"><a href="/">CHaMP Transformation Tool</a></h4>   
+      <h1>How to use the CTT</h1>
+            
+      
+    </div>
+  </header>
+
+  <div id="inner-wrapper">
+    <div id="inner" class="row">
+      <div id="main" class="large-8 columns large-push-4">
+        <section><p><a href="/index.html"><img src="/assets/images/CTT_Toolbar.png" alt="toolbar" /></a></p>
+
+<p>The use of the tool is described in Wheaton et al. (In Review), and reviewed here briefly. The video tutorials below go through all the steps in using the tool. There are over 250 different sample datasets (as of Fall 2011) you can try the tool out on available at http://champmonitoring.org.</p>
+
+<p>If you have unprojected survey data, that includes coordinates for three benchmarks for which you also have projected or geographic coordinates for, you can use this tool (i.e. any initial CHaMP survey). It helps if you have some context projected imagery or basemap layers for your study area. This video covers how you load such imagery to prepare to use the tool:</p>
+
+<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/zkt6oKAJWfs?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen=""></iframe></div>
+
+<p>After you have your base imagery loaded for context, you are ready to use the tool. You may do this with either CHaMP or non-CHaMP data. The next two video tutorials show you how to do this.</p>
+
+<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/H-75BKWn-ro?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen=""></iframe></div>
+
+<p>Prior to using the tool, I used CHaMP Tools toolbox -&gt; Survey Data Processing -&gt; 1 Import Data from .DXF File to get the survey data ready (<a href="http://www.gis.usu.edu/~jwheaton/et_al/CHAMP_TransformationTool/wffoster_4.20.2011_tq3.dxf"><code class="highlighter-rouge">wffoser_4.20.2011_tq3.dxf</code></a> in this case) and convert it into a Geodatabase with the unprojected data. For the video tutorial above I used this <a href="http://www.gis.usu.edu/~jwheaton/et_al/CHAMP_TransformationTool/WestFork_FosterCreek.gdb.zip"><code class="highlighter-rouge">WestFork_FosterCreek.gdb </code></a>Geodatabase from West Fork of Foster Creek. This <code class="highlighter-rouge">WFFoster.csv </code>file has the coordinates for doing the transformation.</p>
+
+<p>If you are interested in using non CHaMP data with this tool, see this video:</p>
+
+<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/mhK_iRPSo9c?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen=""></iframe></div>
+
+<p>For a more elaborate explanation of the use of the tool, see the <a href="http://gis.joewheaton.org/assignments/labs/lab-02---coordinate-data-projections-transformations">Lab 2 Exercise</a> from a GIS Class taught at USU.</p>
+
+<h2 id="screenshots">Screenshots</h2>
+
+<p>The Add-In is a dockable panel with ArcGIS and consists of three primary screens:</p>
+
+<p>In the First Screen you load your benchmark coordinates, and specify the workspace where your unprojected data is:</p>
+
+<p><img src="/assets/images/CTT_Screen1_NEW.png" alt="screenshot1" /></p>
+
+<p>The second screen prompts you to choose what data you want to preview, and how you want to initially calculate the transformation:</p>
+
+<p><img src="/assets/images/CTT_Screen2_NEW.png" alt="screenshot1" /></p>
+
+<p>The final tool lets you interactively decide what is the most appropriate transformation method based on a combination of visual inspection and inspection of the residual error values:</p>
+
+<p><img src="/assets/images/CTT_Screen3_NEW.png" alt="screenshot1" /></p>
+</section>
+      </div>
+      <div id="sidebar" class="large-4 columns large-pull-8">
+          
+	
+	<div class="title-bar">
+		<div class="title-bar-title"><i class="fa fa-file-text"></i> Page Contents</div>		
+	</div>
+	<div id="toc"></div>
+	
+
+
+<div class="title-bar">
+	<div class="title-bar-title"><i class="fa fa-sitemap"></i> Site Contents
+		<div id="menuCtls" class="button-group tiny show-for-medium">
+				<span id="expand" class="button primary fa fa-plus has-tip top" data-tooltip title="Expand all items" aria-haspopup="true" data-disable-hover="false" ></span>
+				<span id="contract" class="button primary fa fa-minus has-tip top" data-tooltip title="Contract all items" aria-haspopup="true" data-disable-hover="false" ></span>
+			</div>	
+	</div>
+</div>
+<div id="sidenav">
+			<ul id='HTMLOnlyNav'>							<li><a href='/disclaimer.html'>Disclaimer & Copyright</a></li>							<li><a href='/download.html'>Download Instructions</a></li>							<li><a href='/how-to-use-ctt.html'>How to use the CTT</a></li>							<li><a href='/'>CHaMP Transformation Tool</a></li>							<li><a href='/instructions.html'>Read Me</a></li>		</ul>	
+</div>
+
+        </div>
+    </div>
+  </div>
+
+
+    <footer id="footer" class="row">
+<div id="rightslogo">
+    <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
+        <img src="/assets/images/cc-watermarks-riverscapes_orig.png" alt="Picture">
+    </a>
+</div>
+</footer>
+    <script type="text/javascript">var NAVTitle = "CHaMP Transformation Tool";var NAVHome = "";var NAVPages = [{url: "/disclaimer.html",absurl: "/disclaimer.html",slug: "disclaimer.html",title: "Disclaimer & Copyright",weight: ""},{url: "/download.html",absurl: "/download.html",slug: "download.html",title: "Download Instructions",weight: ""},{url: "/how-to-use-ctt.html",absurl: "/how-to-use-ctt.html",slug: "how-to-use-ctt.html",title: "How to use the CTT",weight: ""},{url: "/",absurl: "/",slug: "",title: "CHaMP Transformation Tool",weight: ""},{url: "/instructions.html",absurl: "/instructions.html",slug: "instructions.html",title: "Read Me",weight: ""},];var SiteSettings = {"autoPageContents":{"active":true,"onHome":false},"sideMenu":{"homeItem":true,"startExpanded":false},"topmenu":[{"title":"Riverscapes","childern":[{"title":"Model Home","url":"index"},{"title":"Riverscapes Home","url":"http://riverscapes.xyz"},{"title":"About Riverscapes","url":"http://riverscapes.xyz/about.html"},{"title":"Who We Are","url":"http://riverscapes.xyz/who-we-are.html"},{"title":"News","url":"http://riverscapes.xyz/news.html"}]},{"title":"RC Tools","url":"http://riverscapes.xyz/rc-tools.html"},{"title":"RC Science","url":"http://riverscapes.xyz/rc-science.html"},{"title":"RC Data","url":"http://riverscapes.xyz/rc-data.html"},{"title":"RC Help","url":"http://riverscapes.xyz/rc-help.html"}]};</script>
+
+    <script src="/assets/js/dist.js"></script>
+
+  </body>
+
+</html>

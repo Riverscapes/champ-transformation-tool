@@ -1,4 +1,6 @@
-# How to use the CTT
+---
+title: How to use the CTT
+---
 
 [![toolbar]({{site.baseurl}}/assets/images/CTT_Toolbar.png)]({{site.baseurl}}/index.html)
 

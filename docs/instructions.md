@@ -1,21 +1,12 @@
-# Read Me
-
-***
-[![toolbar]({{site.baseurl}}/assets/images/CTT_Toolbar.png)]({{site.baseurl}}/index.html)
-CHaMP Transformation Tool 1.0 Beta - ArcGIS Plugin
-
-[![img]({{site.baseurl}}/assets/images/CTT_About.png)]({{site.baseurl}}/assets/images/CTT_About.png)
-
-
-
+---
+title: Read Me
+---
 
 Produced by Chris Garrard & Joe Wheaton 
 
 Copyright © 2011 Wheaton
 
 Updated:  May, 2011
-
-
 
 ## GNU Licnese
 

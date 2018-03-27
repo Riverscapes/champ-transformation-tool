@@ -1,4 +1,6 @@
-# Download Tool
+---
+title: Download Instructions
+---
 
 [![toolbar]({{site.baseurl}}/assets/images/CTT_Toolbar.png)]({{site.baseurl}}/index.html)
 

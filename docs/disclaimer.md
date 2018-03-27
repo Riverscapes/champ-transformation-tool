@@ -1,4 +1,6 @@
-# 2011 - Disclaimer & Copyright
+---
+title: Disclaimer & Copyright
+---
 
 These are **NOT** official pages maintained by Utah State University. All views and opinions expressed herein are those of Joseph Wheaton, and not necessarily those of his current employer, Utah State University. 
 
